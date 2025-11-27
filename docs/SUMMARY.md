@@ -29,3 +29,7 @@
 * [Common Beginner Errors (and Fixes)](section-4-common-beginner-errors-and-fixes/common-beginner-errors-and-fixes.md)
 * [📝 Try It Yourself (Super Beginner Exercises)](section-4-common-beginner-errors-and-fixes/try-it-yourself-super-beginner-exercises.md)
 * [🎉 CHAPTER 1 COMPLETE!](section-4-common-beginner-errors-and-fixes/chapter-1-complete.md)
+
+## CHAPTER 2
+
+* [Page 1](chapter-2/page-1.md)
