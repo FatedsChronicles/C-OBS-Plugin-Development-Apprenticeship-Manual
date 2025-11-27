@@ -1,4 +1,4 @@
-# 🚀 2.1 Create a Project Folder
+# 💻 SECTION 2 — Your First C++ Program
 
 We’re going to create a tiny program that prints a message on the screen.
 
