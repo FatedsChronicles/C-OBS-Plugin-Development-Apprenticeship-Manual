@@ -1,8 +1,10 @@
 # Table of contents
 
+## CHAPTER 1
+
 * [❤️ A Little Welcome From Me](README.md)
-* [🎯 What You’ll Learn in This Chapter](what-youll-learn-in-this-chapter.md)
-* [🧰 What You Need Before We Start](what-you-need-before-we-start.md)
+* [🎯 What You’ll Learn in This Chapter](chapter-1/what-youll-learn-in-this-chapter.md)
+* [🧰 What You Need Before We Start](chapter-1/what-you-need-before-we-start.md)
 
 ## 🪜 SECTION 1 — Installing Your Tools (Step-by-Step, No Guessing)
 
