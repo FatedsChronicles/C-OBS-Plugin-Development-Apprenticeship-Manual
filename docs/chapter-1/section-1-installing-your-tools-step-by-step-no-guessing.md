@@ -22,9 +22,11 @@ Press **Enter**.
 
 #### Step 2 — Download
 
-Click the big blue **“Download for Windows”** button.
+Click the big **“Download for Windows”** button.
 
 #### Step 3 — Run the installer
+
+Go to your Downloads Folder.
 
 Double-click the file called:
 
@@ -34,10 +36,17 @@ VSCodeUserSetup-x64.exe
 
 #### Step 4 — Click through the installer
 
+Select "I accept the agreement"
+
+Then click "Next"
+
 Tick the following boxes:
 
-* **Add “Open with Code” to the right-click menu**
-* **Add to PATH**
+* Create a desktop icon
+* Add "**Open with Code**" action to Windows Explorer file context menu
+* **Add “Open with Code” action to Windows Explorer directory context menu**
+* **Register Code as an editor for support file types**
+* **Add to PATH (requires shell restart)**
 
 Click **Next** → **Install**.
 
