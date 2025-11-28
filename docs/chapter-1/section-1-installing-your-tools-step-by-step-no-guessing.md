@@ -74,14 +74,14 @@ https://visualstudio.microsoft.com/downloads
 
 Press **Enter**.
 
-#### Step 2 — Scroll to “Tools for Visual Studio”
+#### Step 2 — Scroll down the page to “Tools for Visual Studio”
 
 Find:
 
 **Build Tools for Visual Studio**\
 Click **Download**.
 
-#### Step 3 — Open the installer
+#### Step 3 — Open the installer or go to Downloads Folder
 
 Double-click:
 
@@ -91,23 +91,40 @@ vs_BuildTools.exe
 
 #### Step 4 — Select the correct workload
 
+A window open for Visual Studio Installer
+
+Click "Continue"
+
+A Download and install will begin, wait for it to finish.
+
 A big window appears.
 
-On the left, tick:
+Select "Select workloads and components manually"
 
-✔ **C++ Build Tools**
+Thee click **Next**
 
-#### Step 5 — In the summary (right side), make sure these are ticked:
+#### Step 5 — Install the required components
 
-* MSVC v143 (or latest)
-* Windows 10/11 SDK
-* CMake for Windows
-* Desktop development with C++
-* Ninja (optional, but helpful)
+Across the top choose **"Workloads"**
+
+**Select "Desktop development with C++**
+
+Across the top choose **"Individual components"**
+
+In the summary (right side), make sure these are ticked:
+
+* [ ] ✔ MSVC v143 (or latest)
+* [ ] ✔ MSVC Build Tools for x64/x86 (Latest)
+* [ ] ✔ MSVC Build Tools v 14.50 for x64/x86
+* [ ] ✔ Windows 11 SDK (10.0.22621.0)
+* [ ] ✔ Windows 11 SDK (10.0.26100.6901)
+* [ ] ✔ C++ CMake tools for Windows
+
+If any of the above are missing use the search on the top left to add them
 
 #### Step 6 — Install
 
-Click **Install**.\
+Click **Install**\
 This might take 5–15 minutes.
 
 ***
@@ -128,10 +145,21 @@ Git saves your progress and helps you undo mistakes — think of it like a time 
 https://git-scm.com
 ```
 
-2. Click **Download for Windows**
-3. Run the installer
-4. Click **Next** all the way through\
-   (The defaults are perfect for beginners.)
+2. Click **Download for Windows** Then **Git for Windows x64 Setup**
+3. Go to Downloads Folder
+4. Double click Git-2.52.0-64-bit.exe
+5. On Term & Conditions click **Next**
+6. On Select Components click **Next**
+7. On Choose the default editor, Select "Use Visual Studio as Git's default editor" then click **Next**
+8. On Adjusting the name of the initial branch in new repositories, Choose "Override the default name" Write "main" without the quotes in the box. Then click **Next**
+9. On Adjusting you PATH environment. Select Git from the command line. Then click **Next**
+10. On Choosing the SSH executable, select **Use bundled OpenSSH**
+11. On Choosing HTTPS transport backend, select Use the native Windows Secure Channel library. Then click **Next**
+12. On Configuring the line ending conversions, select Checkout as-is, commit Unix-style line endings. The click **Next**
+13. On Configuring the terminal emulator to use with Git Bash, Select Use MinTTY (the default terminal of MSYS2). The click **Next**
+14. On Choose the default behavior of 'git pull', Select Fast-forward or merge. The click **Next**
+15. On Choose a credential helper, Select Git Credential Manager. The click **Next**
+16. On Configuring extra options, Select Enable file system caching. The click **Install**
 
 #### Install GitHub Desktop
 
@@ -141,11 +169,15 @@ https://git-scm.com
 https://desktop.github.com
 ```
 
-* Click **Download**
-* Install
-*   Sign in with your GitHub account
+* Click **Download Now** Then **Download for Windows (64 bit)**
+* Go to Downloads Folder
+* Double click GitHubDesktopSetup-x64.exe
+* Sign in with your GitHub account
+* And that’s it — Git is ready.
+* To login to a different account
+  *   Click File Then Account
 
-    And that’s it — Git is ready.
+
 
 ## 🎉 **Big Pause: You Did Something Huge**
 
