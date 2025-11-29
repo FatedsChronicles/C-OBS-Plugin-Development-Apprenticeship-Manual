@@ -2,6 +2,17 @@
 
 ## Common Beginner Errors (and Fixes)
 
+#### ❌ “identifier not found”
+
+You misspelled something.
+
+Example:
+
+```cpp
+std::coutt   // wrong
+std::cout    // correct
+```
+
 Fix: Check your spelling.
 
 #### ❌ “expected ;”
@@ -13,6 +24,8 @@ You forgot a semicolon.
 Your code has an error OR your compiler didn’t install correctly.
 
 Fix: Reinstall MSVC tools or send the error to your instructor (you).
+
+***
 
 > ## 💬 **Chris’ Corner: A Little Honesty**
 >
