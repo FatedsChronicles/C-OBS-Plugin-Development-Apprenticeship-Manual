@@ -11,42 +11,38 @@ A search box opens at the top.
 #### Step 2 — Type:
 
 ```
-CMake: Select a Kit
+C/C++: Edit Configurations (UI)
 ```
 
 Press **Enter**.
 
 #### Step 3 — Choose:
 
-```nginx
-MSVC x64
+Under Compiler path dropdown: Choose
+
+```
+C:Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/<version number>/bin/Hostx86/x86/cl.exe
 ```
 
 #### Step 4 — Build your program
 
-Press **F7** on your keyboard.
+On the top menu:
 
-VS Code will now compile (build) the program.
-
-If it succeeds, you’ll see a message like:
-
-```nginx
-Build finished successfully
-```
+Click **Termina**l: Then **New Terminal**
 
 #### Step 5 — Run your program
 
-In the bottom panel, click:
+Still on top menu
 
-```
-▶ Run
-```
+Click **Run**: Then **Start Debugging**
 
 Or press:
 
 **Ctrl + F5**
 
-You should see:
+VS Code will now compile (build) the program.
+
+If it succeeds, you’ll see the message:
 
 ```
 Hello, world!

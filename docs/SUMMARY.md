@@ -10,4 +10,4 @@
 
 ## CHAPTER 2
 
-* [Page 1](chapter-2/page-1.md)
+* [🪜 SECTION 1 — Setting up your Developer Environments](chapter-2/section-1-setting-up-your-developer-environments.md)
